@@ -105,6 +105,6 @@ for epoch in range(num_epochs):
           .format(epoch + 1, num_epochs, train_loss / len(train_loader), train_acc / len(train_loader),
                   eval_loss / len(test_loader), eval_acc / len(test_loader)))
     
-    plt.title('Train and Eval Loss')
-    plt.plot(np.arange(len(losses)), losses)
-    plt.legend(['Train Loss'], loc='upper right')
+plt.title('Train and Eval Loss')
+plt.plot(np.arange(len(losses)), losses)
+plt.legend(['Train Loss'], loc='upper right')
