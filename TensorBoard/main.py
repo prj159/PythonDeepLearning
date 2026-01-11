@@ -1,8 +1,6 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-import torchvision
-import tensorboard
 from torch.utils.tensorboard import SummaryWriter
 
 class Net(nn.Module):
